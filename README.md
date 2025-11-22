@@ -1,6 +1,8 @@
 # **Suinder — Decentralized Swipe-Based Job Matching on Sui**
 <img width="980" height="980" alt="suinderlogo" src="https://github.com/user-attachments/assets/0dfb714c-cda0-4d80-831e-6a0da0636f5f" />
+
 https://suinderr.netlify.app/
+
 Suinder is a fully on-chain, swipe-based job-matching platform built on the Sui blockchain.  
 Employers can publish job postings as on-chain objects, candidates can submit applications directly on-chain, and hiring decisions are performed through a trustless, verifiable contract call.  
 The frontend provides a fast, mobile-friendly UI inspired by modern swipe apps.
