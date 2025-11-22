@@ -1,0 +1,16 @@
+[package]
+name = "job_board"
+edition = "2024.beta"
+
+[dependencies.Sui]
+git = "https://github.com/MystenLabs/sui.git"
+subdir = "crates/sui-framework/packages/sui-framework"
+rev = "main"
+
+[addresses]
+job_board = "0x0"
+sui = "0x2"
+std = "0x1"
+
+[dev-addresses]
+job_board = "0x77"

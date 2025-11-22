@@ -1,0 +1,23 @@
+module job_board::basic_tests {
+    use std::option;
+
+    #[test]
+    public fun test_option_none() {
+        let x = option::none<u64>();
+        assert!(option::is_none(&x), 0);
+    }
+
+    #[test]
+    public fun test_option_some() {
+        let x = option::some<u64>(10);
+        assert!(option::is_some(&x), 1);
+    }
+
+    #[test]
+    public fun test_compare_status() {
+        let open: u8 = 0;
+        let closed: u8 = 1;
+        assert!(open == 0, 2);
+        assert!(closed == 1, 3);
+    }
+}
